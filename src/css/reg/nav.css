@@ -1,0 +1,104 @@
+@charset 'utf-8';
+nav {
+  height: 35px;
+  width: 100%;
+  font-family: "宋体";
+}
+nav a {
+  color: #666;
+}
+.nav_wrapper {
+  box-sizing: border-box;
+  width: 990px;
+  background-color: #f2f2f2;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #666;
+  line-height: 35px;
+}
+.nav_wrapper a:hover {
+  color: red;
+}
+.nav_wrapper > div:nth-child(1) {
+  display: flex;
+}
+.nav_wrapper > div:nth-child(1) > div:nth-child(1) {
+  margin-right: 15px;
+}
+.nav_wrapper > div:nth-child(1) > div:nth-child(1) a {
+  color: #f04e4e;
+}
+.nav_wrapper > div:nth-child(1) > div:nth-child(2) {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+.nav_wrapper > ul {
+  display: flex;
+  width: 420px;
+  justify-content: space-between;
+}
+.nav_wrapper > ul .iconfont {
+  font-size: 12px;
+}
+.nav_wrapper > ul > li {
+  display: flex;
+  z-index: 999;
+}
+.nav_wrapper > ul > li .mytaobao {
+  display: block;
+  font-size: 12px;
+  transform: scale(0.5);
+}
+.nav_wrapper > ul > li:nth-child(2) {
+  width: 65px;
+  padding-left: 10px;
+  position: relative;
+}
+.nav_wrapper > ul > li:nth-child(2):hover {
+  background-color: white;
+}
+.nav_wrapper > ul > li:nth-child(2):hover .mytaobao_none {
+  display: block;
+}
+.nav_wrapper > ul > li:nth-child(2) .mytaobao_none {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  width: 90px;
+  padding-left: 12px;
+  height: 52px;
+  background-color: white;
+  line-height: 20px;
+  padding-top: 5px;
+  display: none;
+}
+.nav_wrapper > ul > li:nth-child(4) {
+  width: 55px;
+  padding-left: 10px;
+  position: relative;
+}
+.nav_wrapper > ul > li:nth-child(4):hover {
+  background-color: white;
+}
+.nav_wrapper > ul > li:nth-child(4):hover {
+  background-color: white;
+}
+.nav_wrapper > ul > li:nth-child(4):hover .mytaobao_none {
+  display: block;
+}
+.nav_wrapper > ul > li:nth-child(4) .mytaobao_none {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  width: 75px;
+  padding-left: 12px;
+  height: 52px;
+  background-color: white;
+  line-height: 20px;
+  padding-top: 5px;
+  display: none;
+}

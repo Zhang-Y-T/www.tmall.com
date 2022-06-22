@@ -1,0 +1,8 @@
+@charset 'utf-8';
+#login_nav {
+  padding: 10px 0px 33px 0px;
+}
+#login_nav .wrapper img {
+  width: 186px;
+  height: 26px;
+}

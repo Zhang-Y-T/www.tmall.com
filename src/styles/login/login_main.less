@@ -1,0 +1,231 @@
+@charset 'utf-8';
+#login_main{
+  height: 600px;
+  width: 100%;
+  position: relative;
+  .content_bg{
+    background: url("../img/login_bg.jpg");
+    background-repeat: no-repeat;     
+    background-size: cover;     
+    background-position: 50%;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    z-index: 0; 
+  }
+  .wrapper {
+   .content_ad {
+     height: 600px;
+     position: relative;
+        .content_login_box{
+          width: 350px;
+          height: 350px;
+          background-color: hsla(0, 0%, 100%, .9);
+          position: absolute;
+          top: 125px;
+          right: 60px;   
+          z-index: 2;
+        
+         
+          .inner-box{
+            width: 300px;
+            height: 287px;
+            margin: 25px auto;  
+            position: relative; 
+      
+          .qr {
+             position: absolute;
+             top: -24px;
+             right: -20px;
+              .icon-qrcode {
+                font-size: 52px;
+                color: #f40;
+                display: block; 
+               
+              }
+              .qr_message{
+                width: 106px;
+                height: 28px;
+                color: #f40;
+                border: 1px solid #f3d995;
+                background-color: #fefcee;
+                font-size: 12px;
+                text-align: center;
+                line-height: 28px;
+                position: absolute;
+                top: 4px;
+                right: 52px;
+              }
+            }
+         
+          .tab-item{
+            margin-bottom: 20px;
+            
+      
+            span{
+              display: inline-block;
+              font-size: 16px;
+              font-weight: bold;
+              width: 64px;       
+              height: 18px;
+              margin: 9px 10px 0px 0px;
+              color: #3c3c3c;       
+             }
+             
+            }
+          
+          .input_box{
+            width: 300px;  
+            height: 42px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            position: relative;
+           
+            input{
+              box-sizing: border-box;
+              height: 42px;
+              width: 300px;
+              padding-left: 50px;
+              outline: none;
+              font-size: 14px;
+              border: 1px solid #f1eeee;        
+            }
+            span{
+              display: inline-block;
+              width: 40px;
+              height: 42px;
+              background-color: #ccc;
+              position: absolute;
+              top: 0;
+              left: 0;  
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+             .iconfont{
+                color:white;
+                font-size: 20px;
+                position: absolute;
+      
+              }
+         
+          }
+          .submit{
+           width: 300px;
+           height: 40px;
+           background-color:#f40 ;
+           border: 1px solid #f40;
+           border-radius: 3px;
+           font-size: 16px;
+           color:white;
+           
+          }
+          .login_blocks{
+            width: 300px;
+            height: 24px;
+            margin-top: 16px;
+            font-size: 12px;
+          a{ 
+            span{
+              color: #6c6c6c;
+            }
+            .icon-weibo1{
+              display: inline-block;
+              color: #e52425;
+              font-size: 15px;
+              transform: translateY(1px);
+            }
+            .icon-zhifubaozhifu{
+              display: inline-block;
+              color: #1ba9ee;
+              font-size: 18px;
+              transform: translateY(2px);
+            }
+            }
+          }
+          .login_blocks2{
+            width: 300px;
+            height: 18px;
+            margin-top:16px;
+            font-size: 12px;
+            text-align: right;
+            a{
+              display: inline-block;
+              margin-left: 10px;
+              span {
+                  color: #6c6c6c;
+      
+                }
+            }
+            
+          }
+          .login_blocks,.login_blocks2{
+           a{
+            &:hover {
+                span {
+                  color: red;
+                }
+              }
+            }
+          }
+        
+         }
+          .inner-box2{  
+            position: absolute;
+            top: 0;
+            left: 25px;
+            display: none;
+          
+            .icon-shouji,.icon-yanzhengma{
+              color: white;
+              font-size: 24px;
+            }
+           .input_box{
+            position: relative;
+            a{
+              color: #6c6c6c;
+              &:hover{
+                color: red;
+              }
+            }
+           }
+          }
+         .inner-box3{
+            position: absolute;
+            top: 0px;
+            left: 25px;
+            display: none;
+          .qr-box{
+            width: 300px;
+            height: 196px;
+           
+            .qr-top{
+              width: 140px;
+              height: 140px;
+              background-color: #3c3c3c;
+              margin: 0 auto;
+            }
+            .qr-bottom{
+              width: 188px;
+              height: 36px;
+              margin: 20px auto;
+              display: flex;
+              i{          
+                font-size: 34px;
+                font-weight: bold;
+                color: #f40;
+              }
+              p{
+                color: #6c6c6c;
+                font-size: 12px;
+                padding-left: 10px;
+              }
+            }
+          }
+        }     
+      }
+    }
+  }
+}

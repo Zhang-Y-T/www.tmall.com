@@ -1,0 +1,107 @@
+footer {
+
+    #footer_top {
+      padding-top: 25px;
+
+      .footer_top_top {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        padding-bottom: 25px;
+        height: 100px;
+        background-image: url(../img/10081.jpg);
+        background-repeat: no-repeat;
+        a {
+          display: inline-block;
+          width: floor((1160/4px));
+          height: 100%;
+        }
+      }
+      .footer_top_bottom {
+        position: relative;
+        height: 190px;
+        padding-top: 25px;
+        >img{
+          position: absolute;
+          bottom: 0;
+          left: 80px;
+        }
+        .list_box {
+          padding-left: 100px;
+          display: flex;
+          justify-content: space-evenly;
+          dl {
+            width: 350px;
+            dt {
+              color: #646464;
+              font-size: 16px;
+              font-weight: 700;
+              height: 30px;
+              line-height: 30px;
+              text-align: left;
+            }
+            a {
+              font-size: 12px;
+              display: block;
+              width: 100px;
+              overflow: hidden;
+              text-align: left;
+              height: 20px;
+              line-height: 20px;
+              color: #8b8b8b;
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+            
+            img{
+              width: 105px;
+            }
+          }
+        }
+      }
+    }
+    #footer_bottom{
+      height: 480px;
+      background-color: #000;
+      border-top: 2px solid red;
+
+      .footer_info{
+        margin-bottom: 10px;
+      }
+
+      p>a{
+        font-size: 16px;
+        margin-right: 3px;
+        color: white;
+      }
+
+      .footer_otherlink{
+        color: white;
+        margin-bottom: 10px;
+      }
+
+      .footer_copyright{
+        color: #999;
+        font-size: 12px;
+        a{
+          font-size: 16px;
+
+          margin-right: 65px;
+          line-height: 20px;
+        }
+        span{
+          font-size: 16px;
+          margin-right: 65px;
+          line-height: 20px;
+        }
+      }
+      .footer_newdata{
+        margin-top: 30px;
+        img{
+          display: block;
+          background-color: white;
+          width: 146px;
+          margin: 0 auto;
+        }
+      }
+    }
+}

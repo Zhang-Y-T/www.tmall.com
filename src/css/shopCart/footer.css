@@ -1,0 +1,43 @@
+@charset "utf-8";
+footer {
+  padding-top: 20px;
+  font-size: 12px;
+}
+footer a:hover {
+  color: #ea4343;
+}
+footer #footer_bottom {
+  height: 480px;
+}
+footer #footer_bottom .footer_info {
+  margin-bottom: 10px;
+}
+footer #footer_bottom p > a {
+  font-size: 12px;
+  margin-right: 3px;
+}
+footer #footer_bottom .footer_otherlink {
+  margin-bottom: 10px;
+}
+footer #footer_bottom .footer_copyright {
+  color: #999;
+  font-size: 12px;
+}
+footer #footer_bottom .footer_copyright a {
+  font-size: 12px;
+  margin-right: 65px;
+  line-height: 20px;
+}
+footer #footer_bottom .footer_copyright span {
+  font-size: 12px;
+  margin-right: 65px;
+  line-height: 20px;
+}
+footer #footer_bottom .footer_newdata {
+  margin-top: 30px;
+}
+footer #footer_bottom .footer_newdata img {
+  display: block;
+  width: 146px;
+  margin: 0 auto;
+}

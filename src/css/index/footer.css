@@ -1,0 +1,97 @@
+footer #footer_top {
+  padding-top: 25px;
+}
+footer #footer_top .footer_top_top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 25px;
+  height: 100px;
+  background-image: url(../img/10081.jpg);
+  background-repeat: no-repeat;
+}
+footer #footer_top .footer_top_top a {
+  display: inline-block;
+  width: 290px;
+  height: 100%;
+}
+footer #footer_top .footer_top_bottom {
+  position: relative;
+  height: 190px;
+  padding-top: 25px;
+}
+footer #footer_top .footer_top_bottom > img {
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+}
+footer #footer_top .footer_top_bottom .list_box {
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer #footer_top .footer_top_bottom .list_box dl {
+  width: 350px;
+}
+footer #footer_top .footer_top_bottom .list_box dl dt {
+  color: #646464;
+  font-size: 16px;
+  font-weight: 700;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+}
+footer #footer_top .footer_top_bottom .list_box dl a {
+  font-size: 12px;
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  text-align: left;
+  height: 20px;
+  line-height: 20px;
+  color: #8b8b8b;
+}
+footer #footer_top .footer_top_bottom .list_box dl a:hover {
+  text-decoration: underline;
+}
+footer #footer_top .footer_top_bottom .list_box dl img {
+  width: 105px;
+}
+footer #footer_bottom {
+  height: 480px;
+  background-color: #000;
+  border-top: 2px solid red;
+}
+footer #footer_bottom .footer_info {
+  margin-bottom: 10px;
+}
+footer #footer_bottom p > a {
+  font-size: 16px;
+  margin-right: 3px;
+  color: white;
+}
+footer #footer_bottom .footer_otherlink {
+  color: white;
+  margin-bottom: 10px;
+}
+footer #footer_bottom .footer_copyright {
+  color: #999;
+  font-size: 12px;
+}
+footer #footer_bottom .footer_copyright a {
+  font-size: 16px;
+  margin-right: 65px;
+  line-height: 20px;
+}
+footer #footer_bottom .footer_copyright span {
+  font-size: 16px;
+  margin-right: 65px;
+  line-height: 20px;
+}
+footer #footer_bottom .footer_newdata {
+  margin-top: 30px;
+}
+footer #footer_bottom .footer_newdata img {
+  display: block;
+  background-color: white;
+  width: 146px;
+  margin: 0 auto;
+}

@@ -1,4 +1,8 @@
 @charset "utf-8";
+html {
+  background-color: #f7f7f7;
+}
+
 html,
 body,
 ol,
@@ -58,7 +62,6 @@ em {
 
 a,
 u {
-  color: #999999;
   text-decoration: none;
 }
 

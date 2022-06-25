@@ -4,9 +4,11 @@ nav {
   width: 100%;
   font-family: "宋体";
 }
+
 nav a {
   color: #666;
 }
+
 .nav_wrapper {
   box-sizing: border-box;
   width: 990px;
@@ -16,55 +18,68 @@ nav a {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  color: #666;
+  color: #999;
   line-height: 35px;
 }
+
 .nav_wrapper a:hover {
   color: red;
 }
-.nav_wrapper > div:nth-child(1) {
+
+.nav_wrapper>div:nth-child(1) {
   display: flex;
 }
-.nav_wrapper > div:nth-child(1) > div:nth-child(1) {
+
+.nav_wrapper>div:nth-child(1)>div:nth-child(1) {
   margin-right: 15px;
 }
-.nav_wrapper > div:nth-child(1) > div:nth-child(1) a {
+
+.nav_wrapper>div:nth-child(1)>div:nth-child(1) a {
   color: #f04e4e;
 }
-.nav_wrapper > div:nth-child(1) > div:nth-child(2) {
+
+.nav_wrapper>div:nth-child(1)>div:nth-child(2) {
   display: flex;
   width: 200px;
   justify-content: space-between;
 }
-.nav_wrapper > ul {
+
+.nav_wrapper>ul {
   display: flex;
   width: 420px;
   justify-content: space-between;
 }
-.nav_wrapper > ul .iconfont {
+
+.nav_wrapper>ul .iconfont {
   font-size: 12px;
 }
-.nav_wrapper > ul > li {
+
+.nav_wrapper>ul>li {
   display: flex;
   z-index: 999;
 }
-.nav_wrapper > ul > li .mytaobao {
+
+.nav_wrapper>ul>li .mytaobao {
   display: block;
   font-size: 12px;
   transform: scale(0.5);
 }
-.nav_wrapper > ul > li:nth-child(2) {
+
+.nav_wrapper>ul>li:nth-child(2) {
   width: 65px;
   padding-left: 10px;
   position: relative;
 }
-.nav_wrapper > ul > li:nth-child(2):hover {
+
+.nav_wrapper>ul>li:nth-child(2):hover {
   background-color: white;
 }
-.nav_wrapper > ul > li:nth-child(2):hover .mytaobao_none {
+
+.nav_wrapper>ul>li:nth-child(2):hover .mytaobao_none {
   display: block;
 }
-.nav_wrapper > ul > li:nth-child(2) .mytaobao_none {
+
+.nav_wrapper>ul>li:nth-child(2) .mytaobao_none {
   position: absolute;
   top: 35px;
   left: 0px;
@@ -76,21 +91,26 @@ nav a {
   padding-top: 5px;
   display: none;
 }
-.nav_wrapper > ul > li:nth-child(4) {
+
+.nav_wrapper>ul>li:nth-child(4) {
   width: 55px;
   padding-left: 10px;
   position: relative;
 }
-.nav_wrapper > ul > li:nth-child(4):hover {
+
+.nav_wrapper>ul>li:nth-child(4):hover {
   background-color: white;
 }
-.nav_wrapper > ul > li:nth-child(4):hover {
+
+.nav_wrapper>ul>li:nth-child(4):hover {
   background-color: white;
 }
-.nav_wrapper > ul > li:nth-child(4):hover .mytaobao_none {
+
+.nav_wrapper>ul>li:nth-child(4):hover .mytaobao_none {
   display: block;
 }
-.nav_wrapper > ul > li:nth-child(4) .mytaobao_none {
+
+.nav_wrapper>ul>li:nth-child(4) .mytaobao_none {
   position: absolute;
   top: 35px;
   left: 0px;
@@ -102,33 +122,40 @@ nav a {
   padding-top: 5px;
   display: none;
 }
+
 main {
   font-family: "宋体";
   margin-bottom: 25px;
 }
+
 main .wrapper {
   width: 990px;
   margin: 0 auto;
 }
+
 main .wrapper .logo_area {
   display: flex;
   padding: 20px 0;
   margin-bottom: 150px;
 }
+
 main .wrapper .logo_area img {
   height: 50px;
   margin-right: 10px;
 }
+
 main .wrapper .logo_area h2 {
   font-size: 24px;
   line-height: 50px;
 }
+
 main .wrapper .reg_area {
   width: 400px;
   height: 300px;
   margin: 0 auto;
   text-align: end;
 }
+
 main .wrapper .reg_area .reg-item {
   width: 100%;
   height: 36px;
@@ -136,11 +163,13 @@ main .wrapper .reg_area .reg-item {
   justify-content: end;
   margin-bottom: 20px;
 }
+
 main .wrapper .reg_area .reg-item h3 {
   font-size: 14px;
   line-height: 36px;
   margin-right: 10px;
 }
+
 main .wrapper .reg_area .reg-item .reg-input {
   width: 320px;
   text-align: start;
@@ -151,10 +180,12 @@ main .wrapper .reg_area .reg-item .reg-input {
   line-height: 36px;
   position: relative;
 }
+
 main .wrapper .reg_area .reg-item .reg-input .ph1 {
   position: absolute;
   top: 10px;
 }
+
 main .wrapper .reg_area .reg-item .reg-input .country {
   box-sizing: border-box;
   display: inline-block;
@@ -165,32 +196,39 @@ main .wrapper .reg_area .reg-item .reg-input .country {
   font-size: 14px;
   color: #666;
 }
+
 main .wrapper .reg_area .reg-item .reg-input .country span:nth-of-type(1) {
   margin-right: 6px;
 }
+
 main .wrapper .reg_area .reg-item .reg-input .country .area_code {
   font-size: 16px;
   font-family: "黑体";
   color: #666;
 }
+
 main .wrapper .reg_area .reg-item .reg-input .country .area_code .iconfont {
   position: absolute;
   top: 0px;
   font-size: 18px;
 }
+
 main .wrapper .reg_area .reg-item .reg-input input {
   font-size: 14px;
   padding-left: 10px;
 }
+
 main .wrapper .reg_area .reg-item .reg-input input::-webkit-input-placeholder {
   color: #a8a8a8;
   font-family: "宋体";
 }
+
 main .wrapper .reg_area .reg-item .reg-input .yanzheng {
   margin-left: 50px;
   font-size: 14px;
   color: #FD6020;
 }
+
 main .wrapper .reg_area .reg-button {
   margin: 26px 0 45px 0;
   display: inline-block;
@@ -202,35 +240,42 @@ main .wrapper .reg_area .reg-button {
   border-radius: 2px;
   background: linear-gradient(to right, #ffcb7f, #ffa77f);
 }
+
 main .wrapper .reg_area .xieyi {
   width: 320px;
   display: inline-block;
   line-height: 20px;
   margin-bottom: 25px;
 }
+
 main .wrapper .reg_area .xieyi input {
   width: 15px;
   height: 15px;
   margin-left: -8px;
 }
+
 main .wrapper .reg_area .xieyi span {
   font-size: 14px;
   color: #666;
   margin-right: 28px;
 }
+
 main .wrapper .reg_area .xieyi a {
   font-size: 14px;
   color: #FD6020;
 }
+
 main .wrapper .reg_area .change a {
   font-size: 12px;
   color: #FD6020;
 }
+
 footer {
   font-family: "宋体";
   font-size: 12px;
   color: #DDD;
 }
+
 footer .footer_top {
   display: flex;
   justify-content: space-between;
@@ -238,32 +283,40 @@ footer .footer_top {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
 }
+
 footer .footer_top a {
   color: #6c6c6c;
 }
+
 footer .footer_top a:hover {
   color: #FD6020;
 }
+
 footer .footer_mid {
   padding: 12px 20px;
 }
+
 footer .footer_mid a {
   color: #6c6c6c;
   margin-right: 10px;
 }
+
 footer .footer_mid a:hover {
   color: #FD6020;
 }
+
 footer .footer_mid h4 {
   color: #6c6c6c;
   display: inline-block;
   font-size: 12px;
   margin-left: 20px;
 }
+
 footer .footer_mid p {
   margin-top: 12px;
   color: #9c9c9c;
 }
+
 footer .footer_mid p a:hover {
   color: #FD6020;
 }

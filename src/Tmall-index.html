@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/iconfont.css">
+
+  <link rel="stylesheet" href="./css/swiper-7.4.1/swiper/swiper-bundle.min.css" />
+
+  <script src="./js/Tmall-index.js" type="module"></script>
+
 </head>
 
 <body>
@@ -22,8 +27,8 @@
         </div>
         <div>
           <p>喵，欢迎来天猫</p>
-          <a href="">请登录</a>
-          <a href="">免费注册</a>
+          <a href="./Tmall-login.html">请登录</a>
+          <a href="./Tmall-reg.html">免费注册</a>
         </div>
       </div>
       <ul>
@@ -37,7 +42,7 @@
         </li>
         <li>
           <span class="iconfont" style="color:rgba(255, 0, 0, .8) ;">&#xe603;</span>
-          <a href="">购物车</a>
+          <a href="./Tmall-shopCart.html">购物车</a>
         </li>
         <li>
           <a href="">收藏夹</a>
@@ -253,8 +258,32 @@
 
           <!-- 轮播图 -->
           <div class="text_mid">
-            <div class="p1">这是一个轮播图</div>
-            <div class="p2">这也是一个轮播图</div>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/slide/slide (1).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/slide/slide (2).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/slide/slide (3).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/slide/slide (4).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/slide/slide (5).png" alt=""></div>
+              </div>
+              <div><img src="./img/10024.png" alt="" class="swiper-button-next"></div>
+              <div><img src="./img/10023.png" alt="" class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="swiper mySwiper-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide" style="display: flex;justify-content:space-between"><img src="./img/slide/slide-2 (1).jpg" alt=""><img src="./img/slide/slide-2 (2).jpg" alt=""></div>
+                <div class="swiper-slide" style="display: flex;justify-content:space-between"><img src="./img/slide/slide-2 (3).jpg" alt=""><img src="./img/slide/slide-2 (4).jpg" alt=""></div>
+                <div class="swiper-slide" style="display: flex;justify-content:space-between"><img src="./img/slide/slide-2 (5).jpg" alt=""><img src="./img/slide/slide-2 (6).jpg" alt=""></div>
+              </div>
+              <div><img src="./img/10024.png" alt="" class="swiper-button-next"></div>
+              <div><img src="./img/10023.png" alt="" class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <script src="./swiper/swiper-bundle.min.js"></script>
+
           </div>
 
           <div class="text_right">
@@ -320,8 +349,8 @@
           <div class="logo">
             <img src="./img/10038.png" alt="">
           </div>
-          <div class="shop_box1">
-            <a href="">
+          <ul class="shop_box1">
+            <!-- <a href="">
               <img src="./img/10039.jpg" alt="">
               <p>可孚创可贴女防水透气可爱少女防水透气可爱</p>
               <h4>￥9.9</h4>
@@ -345,8 +374,8 @@
               <img src="./img/10043.jpg" alt="">
               <p>grace/洁丽雅浴帽干发帽女超强吸水速干包头干发巾长短发通用1条</p>
               <h4>￥29.9</h4>
-            </a>
-          </div>
+            </a> -->
+          </ul>
           <div class="shop_box2">
             <a href="">
               <img src="./img/10039.jpg" alt="">
@@ -711,5 +740,20 @@
 
   </footer>
 </body>
+<script>
+  console.log(JSON.stringify([{
+    "src": "./img/details/details_2 (1).jpg"
+  }, {
+    "src": "./img/details/details_2 (2).jpg"
+  }, {
+    "src": "./img/details/details_2 (3).jpg"
+  }, {
+    "src": "./img/details/details_2 (4).jpg"
+  }, {
+    "src": "./img/details/details_2 (5).jpg"
+  }, {
+    "src": "./img/details/details_2 (6).jpg"
+  }]));
+</script>
 
 </html>

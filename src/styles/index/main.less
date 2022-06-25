@@ -138,14 +138,77 @@
         margin-top: 6px;
         width: 520px;
         height: auto;
-        .p1{
-          height: 280px;
-          background-color: #a8a8a8;
+
+        .swiper {
+          width: 100%;
+          position: relative;
         }
-        .p2{
+
+        .mySwiper{
+          height: 280px;
+        }
+
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .swiper-button-next{
+          position: absolute;
+          top: 50%;
+          right: 0;
+        }
+
+        .swiper-button-prev{
+          position: absolute;
+          top: 50%;
+          left: 0;
+        }
+
+        .swiper {
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .mySwiper-2{
           margin-top: 30px;
-          height: 206px;
-          background-color: #cecece;
+          .swiper-slide{
+            height: 200px;
+            img{
+              width: 256px;
+            }
+          }
+          .swiper-button-next{
+            position: absolute;
+            top: 50%;
+            right: 0;
+          }
+          .swiper-button-prev{
+            position: absolute;
+            top: 50%;
+            left: 0;
+          }
         }
       }
 

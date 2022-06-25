@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/iconfont.css">
   <link rel="stylesheet" href="./css/detail.css">
+
+  <script src="./js/Tmall-detail.js" type="module"></script>
   <title>Document</title>
 
 </head>
@@ -54,7 +56,7 @@
             <span class="iconfont icon-shouji1"></span>
             <a href="">手机版</a>
             <div class="phone">
-              <img src="../../img/10090.png" alt="" />
+              <img src="./img/10090.png" alt="" />
               <h2>到天猫APP</h2>
               <p>新人享0.01元好货</p>
               <div class="phone-triangle"></div>
@@ -1217,15 +1219,40 @@
     </div>
     <div class="main-details">
       <div class="wrapper details-mes">
-        <div class="details-img">
-          <a href=""><img src="./img/详情图.jpg" alt=""><i class="iconfont icon-sousuo1"></i><i class="iconfont icon-bofanganniu"></i></a>
+        <div class="details-img  display">
+
           <div class="detailes-imglist">
-            <img src="./img/小图1.jpg" alt="">
+            <!-- <img src="./img/小图1.jpg" alt="">
             <img src="./img/小图2.jpg" alt="">
             <img src="./img/小图3.jpg" alt="">
             <img src="./img/图片4.jpg" alt="">
-            <img src="./img/小图5.jpg" alt="">
+            <img src="./img/小图5.jpg" alt=""> -->
           </div>
+
+
+          <!-- <script>
+            var img = Array.from(document.querySelectorAll('.detailes-imglist>img'));
+            console.log(img);
+            var div = Array.from(document.querySelectorAll('.details-img'));
+
+            img.forEach(function(el) {
+              el.onmousemove = function() {
+                img.forEach(function(elm) {
+                  elm.classList.remove('active');
+                });
+                this.classList.add('active');
+                div.forEach(function(elm) {
+                  elm.classList.remove('display');
+                });
+                var that = this;
+                var index = img.findIndex(function(elm) {
+                  return elm === that;
+                });
+                div[index].classList.add('display');
+              }
+            })
+          </script> -->
+
           <p class="detailes-collection">
             <a href="">
               <i class="iconfont icon-shoucang"></i>
@@ -1237,8 +1264,8 @@
         </div>
         <div class="details-infor">
           <div class="details-hd">
-            <h1>飞科剃须刀电动刮胡刀全身水洗智能充电式胡须刀官方正品FS901</h1>
-            <p class="details-newp">全身水洗 Type-c充电 智能LED显示 长久续航</p>
+            <!-- <h1>飞科剃须刀电动刮胡刀全身水洗智能充电式胡须刀官方正品FS901</h1>
+            <p class="details-newp">活动限时享折扣</p> -->
           </div>
           <div class="details-panel">
             <p class="details-price">价格</p>
@@ -1271,12 +1298,12 @@
           <div class="details-select">
             <div class="details-skin">
               <div class="details-key">
-                <p>颜色分类</p>
-                <a href=""><img src="./img/小图5.jpg" alt=""></a>
+                <!-- <p>颜色分类</p>
+                <a href=""><img src="./img/小图5.jpg" alt=""></a> -->
               </div>
               <div class="details-number">
                 <p>数量</p>
-                <input type="text" value="1">
+                <input type="text" value="1" id="check_num">
                 <span class="number-jiantou">
                   <i class="iconfont icon-black"></i>
                   <i class="iconfont icon-black"></i>

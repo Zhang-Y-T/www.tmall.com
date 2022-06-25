@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/shopCart.css">
   <link rel="stylesheet" href="./css/iconfont.css">
+  <script src="./js/shop.js" type="module"></script>
 </head>
 
 <body>
@@ -39,7 +40,7 @@
       </div>
       <ul>
         <li>
-          <a href=" ">淘宝网首页</a>
+          <a href="./Tmall-index.html">淘宝网首页</a>
         </li>
         <li>
           <a href=" ">我的淘宝</a>
@@ -118,17 +119,12 @@
     <div class="content_main">
       <div class="wrapper">
         <div class="main_title">
-          <span id="title_num" class="title_num">购物车（全部2）</span>
-          <div>
-            <span>已选商品（不含运费）</span>
-            <span id="total">0.00</span>
-            <span class="btn1">结算</span>
-          </div>
+          <span id="title_num" class="title_num">购物车</span>
         </div>
         <div class="main_mid">
           <div class="main_mid_nav">
             <div>
-              <input type="checkbox">
+              <input type="checkbox" class="allCheck">
               <span style="margin-right: 100px;">全选</span>
               <span>商品信息</span>
             </div>
@@ -140,54 +136,14 @@
             </div>
           </div>
           <div class="main_mid_product">
-            <div class="shop_header">
-              <input type="checkbox">
-              <span class="iconfont icon1">&#xe757;</span>
-              <span style="font-size: 13px;">店铺：</span>
-              <a href="">careplus海外旗舰店</a>
-              <span class="iconfont icon2">&#xe64e;</span>
-            </div>
-            <div class="shop_product">
-              <input type="checkbox">
-              <div class="product_img">
-                <a href=""><img src="./img/10058.jpg" alt=""></a>
-              </div>
-              <div class="product_info">
-                <a href="">Mr forty春秋款新款腰果花裤子男宽松潮流抽绳束脚长裤韩版休闲裤</a>
-                <div class="product_icon">
-                  <span><a href=""><img src="./img/icon (1).png" alt=""></a></span>
-                  <span><a href=""><img src="./img/icon (2).png" alt=""></a></span>
-                  <span><a href=""><img src="./img/icon (3).png" alt=""></a></span>
-                </div>
-              </div>
-              <div class="product_size">
-                <p>颜色：黑色</p>
-                <p>尺码：L</p>
-                <a href=""><span>修改</span></a>
-              </div>
-              <div class="product_message">
-                <div class="product_price">
-                  <h3 class="original_price">￥399.00</h3>
-                  <h3 class="now_price">￥159.00</h3>
-                </div>
-                <div class="product_amount">
-                  <a href="#" class="add">-</a>
-                  <input type="text" value="1" class="text text-amount J_ItemAmount" data-max="85" data-now="2" autocomplete="off">
-                  <a href="#" class="reduce">+</a>
-                </div>
-                <div class="product_prices">￥159.00</div>
-                <div class="user_operate">
-                  <span><a href="">移入收藏夹</a></span>
-                  <span><a href="">删除</a></span>
-                </div>
-              </div>
-            </div>
+
+            <div></div>
           </div>
           <div class="main_mid_aggregate">
             <div>
-              <input type="checkbox">
-              <span style="margin-right: 30px;">全选</span>
-              <span><a href="">删除</a></span>
+              <!-- <input type="checkbox"> -->
+              <!-- <span style="margin-right: 30px;" class="allCheck">全选</span> -->
+              <span><a href="">删除选中</a></span>
               <span><a href="">移入收藏夹</a></span>
             </div>
             <div>
